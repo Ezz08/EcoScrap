@@ -88,3 +88,113 @@ html {
     cursor: pointer;
 
 }
+
+/* Hero */
+
+.hero-texts{
+    text-align: center;
+    margin-bottom: 9rem;
+    position: relative;
+    top: 6rem;
+}
+
+.hero-texts h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    width: 70%;
+    position: relative;
+    left: 12rem;
+}
+
+.hero-texts span{
+    padding: 0 1rem;
+    background-color: var(--light-green);
+    border-radius: 55px;
+}
+
+.hero-texts p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-inline: 19rem;
+}
+
+.hero-section_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started{
+    display: flex;
+    position: relative;
+    top: 2rem;
+    left: 5rem;
+    
+}
+
+.get-started p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid;
+    padding: 1.3rem;
+    border-radius: 55px;
+    height: 30px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    
+}
+
+.get-started p:hover{
+    background-color: var(--dark-green);
+    cursor: pointer;
+    transform: translateY(-4px);
+    color: white;
+
+}
+
+.get-started .two{
+    position: relative;
+    left: 5rem;
+}
+
+ .get-started .one{
+    background-color: var(--dark-green);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: -1rem;
+    top: 3px;
+}
+
+.two-images-right,
+.two-images-left{
+    margin-inline: 7rem;
+}
+
+.two-images-left .first{
+    position: relative;
+    bottom: 7rem;
+}
+
+.two-images-right .second{
+    position: relative;
+    bottom: 7rem;
+}
+
+
+
+
+.hero-section-three{
+    text-align: center;
+}
+
+.hero-section-three img{
+    padding: 0rem 1.5rem;
+}
+
