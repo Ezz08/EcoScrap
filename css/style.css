@@ -199,8 +199,139 @@ html {
 /* Banner */
 
 .banner {
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
     position: relative;
     left: 2.5rem;
     width: 94.7%;
+}
+
+/* Our Impact */
+
+.our-impact_parent{
+    margin-inline: 8rem;
+}
+
+.our-impact-texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-impact-texts h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    width: 110%;
+}
+
+.our-impact-texts p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 55%;
+    position: relative;
+    left: -1rem;
+}
+
+.our-impact_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.How{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.our-impact_left p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    width: 40%;
+    position: relative;
+    top: 6rem;
+}
+
+.our-impact_left{
+    position: relative;
+    top: -2rem;
+}
+
+.our-impact_left .one {
+    background-color: var(--dark-green);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: 8rem;
+    top: 3rem;
+}
+
+.how-texts{
+    background-color: var(--gray-color);
+    padding: 2rem 3rem;
+    width: 100%;
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    left: -3rem;
+}
+
+.how-texts h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    width: 110%;
+}
+
+.how-texts p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 120%;
+}
+
+.how-texts h3,
+.how-texts p{
+    position: relative;
+    left: -2rem;
+}
+
+.How img{
+    background-color: var(--gray-color);
+    border-radius: 100px;
+    padding: 1rem;
+}
+
+.two-images{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.energy{
+    background-color: var(--gray-color);
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    width: 94%;
+}
+
+.energy h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.energy p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
