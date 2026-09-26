@@ -209,6 +209,7 @@ html {
 
 .our-impact_parent{
     margin-inline: 8rem;
+    margin-bottom: 3rem;
 }
 
 .our-impact-texts{
@@ -335,3 +336,127 @@ html {
     font-weight: 400;
     font-style: normal;
 }
+
+/* Initiatives */
+
+.initiatives-parent{
+    background-color: var(--gray-color);
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+}
+
+.initiatives-parent h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.initiatives-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+
+.initiatives-section h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    position: relative;
+    left: 9rem;
+}
+
+.initiatives-section p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 37%;
+}
+
+.initiatives-section:nth-child(3) p{
+    position: relative;
+    left: -6.8rem;
+}
+
+.initiatives-section:nth-child(4) p{
+    position: relative;
+    left: -7.4rem;
+}
+
+.initiatives-section:nth-child(5) p{
+    position: relative;
+    left: -6.4rem;
+}
+
+.initiatives-section p{
+    position: relative;
+    left: -6rem;
+}
+
+.arrow{
+    border: 1px solid rgb(85, 83, 83);
+    border-radius: 55px;
+    background-color: var(--gray-color);
+    padding: 0.3rem;
+    position: relative;
+    right: 11rem;
+}
+
+.rotate{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 67%;
+}
+
+.initiatives-section:nth-child(3){
+    background-color: var(--dark-green);
+    color: white;
+    padding: 2rem 0rem;
+    width: 100%;
+}
+
+.view-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-details p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid;
+    padding: 1.3rem;
+    border-radius: 55px;
+    height: 30px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+
+}
+
+.view-details p:hover {
+    background-color: var(--dark-green);
+    cursor: pointer;
+    transform: translateY(-4px);
+    color: white;
+
+}
+
+.view-details .one {
+    background-color: var(--dark-green);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: -1rem;
+    top: 3px;
+}
+
+
