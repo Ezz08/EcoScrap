@@ -547,3 +547,118 @@ html {
     width: 50%;
 }
 
+/* Packaging */
+
+.packaging_parent{
+    text-align: center;
+    background-color: var(--gray-color);
+    padding: 7rem 0 3rem;
+    margin-bottom: 7rem;
+}
+
+.packaging-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 8rem;
+}
+
+.packaging-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 6rem;
+    width: 60%;
+    position: relative;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.packaging-heading span {
+    padding: 0 1rem;
+    background-color: var(--light-green);
+    border-radius: 55px;
+}
+
+
+.pack-card h3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.pack-card:nth-child(3){
+    background-color: var(--light-green);
+    border-radius: 25px;
+    height: 360px;
+    width: 280px;
+}
+
+.pack-card:first-child .special{
+    position: relative;
+    top: -12rem;
+    left: -10.5rem;
+
+}
+
+.pack-card:first-child h3{
+    position: relative;
+    top: -11rem;
+    left: -2rem;
+
+}
+
+.pack-card:nth-child(2) .special{
+    position: relative;
+    top: -12rem;
+
+}
+
+.pack-card:nth-child(2) h3{
+    position: relative;
+    top: -17rem;
+    text-align: center;
+    left: 3.3rem;
+    width: 70%;
+
+}
+
+.pack-card:nth-child(2){
+    position: relative;
+    left: -3rem;
+}
+
+.pack-card:nth-child(3){
+    position: relative;
+    left: -2.7rem;
+}
+
+.pack-card{
+    position: relative;
+}
+
+.pack-card:last-child .special{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pack-card:nth-child(3) .special{
+    position: relative;
+    top: 4rem;
+    right: 6rem;
+}
+
+.pack-card:nth-child(3) h3{
+    position: relative;
+    top: 6rem;
+    left: 1rem;
+    text-align: left;
+    width: 90%;
+    color: #2C5648;
+}
+
