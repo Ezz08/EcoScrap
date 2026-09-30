@@ -6,7 +6,7 @@ The website presents environmental information through a clean and engaging inte
 
 ## Live Demo
 
-[EcoScrap](https://ezz08.github.io/EcoScrap/)
+https://ezz08.github.io/EcoScrap/
 
 ## Features
 
