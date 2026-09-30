@@ -1,23 +1,22 @@
 # EcoScrap
 
-EcoScrap is a modern environmental awareness website focused on encouraging responsible waste management, recycling, and sustainable practices.
+EcoScrap is a modern environmental awareness website focused on promoting responsible waste management, recycling, and sustainable practices.
 
-The project is designed to present environmental information in a clear and engaging way while providing users with practical insights into reducing waste and contributing to a cleaner environment.
+The website presents environmental information through a clean and engaging interface, helping users understand the impact of waste and explore practical approaches to creating a cleaner and more sustainable environment.
 
-## Project Status
+## Live Demo
 
-Work in Progress
-
-The header and hero section have been completed, including custom animations and visual interactions. The remaining sections are currently under development.
+[EcoScrap](https://ezz08.github.io/EcoScrap/)
 
 ## Features
 
-* Modern and responsive user interface
-* Environmental and recycling-focused content
-* Clean and structured navigation
-* Interactive animations and visual effects
-* Responsive layout for different screen sizes
-* Sections dedicated to environmental impact, initiatives, solutions, and reviews
+* Modern and clean user interface
+* Mobile responsive design
+* Responsive layout for mobile screens
+* Smooth CSS animations and visual interactions
+* Structured environmental content
+* Clear navigation and section organization
+* Environmental and sustainability-focused content
 
 ## Sections
 
@@ -38,12 +37,14 @@ The header and hero section have been completed, including custom animations and
 
 ## Purpose
 
-EcoScrap is a practice project focused on improving front-end development and UI implementation skills while working on a website concept related to a real-world environmental issue.
+EcoScrap was built as a front-end development project to practice creating a complete website from scratch around a real-world environmental concept.
 
-The project explores how web design can be used to communicate sustainability concepts and encourage more responsible waste management.
+The project focuses on improving skills in HTML structure, CSS styling, responsive design, animations, typography, and visual hierarchy.
+
+## Responsive Design
+
+The website includes a dedicated mobile-responsive layout to provide a smooth and organized experience on smaller screens.
 
 ## Development
 
-The website is being developed from scratch based on a custom UI concept, with a focus on clean structure, responsive layouts, visual hierarchy, and smooth animations.
-
-More sections and interactions will be added as development continues.
+The project was developed from scratch with a focus on clean HTML structure, organized CSS, responsive layouts, and engaging visual interactions.
