@@ -729,3 +729,75 @@ html {
 .rev-card:nth-child(2) .person span{
     color: #B5B5C0;
 }
+
+/* Footer */
+
+.footer_parent{
+    background-color: #031913;
+    color: white;
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer-left p{
+    color: #B5B5C0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+
+}
+
+.footer-nav ul nav {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: 0.2s;
+    display: inline-block;
+    padding: 0.5rem 0;
+    position: relative;
+    left: -4rem;
+}
+
+.footer-nav a:hover {
+    transform: translateY(-4px);
+    color: #7f7f86;
+}
+
+.footer-right p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #B5B5C0;
+    font-size: 14px;
+    position: relative;
+    top: 5rem;
+}
+
